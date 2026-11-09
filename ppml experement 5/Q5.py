@@ -1,0 +1,13 @@
+first_set = set(input("Enter elements of the first set separated by spaces: ").split())
+second_set = set(input("Enter elements of the second set separated by spaces: ").split())
+
+print("First set:", first_set)
+print("Second set:", second_set)
+print("Union:", first_set | second_set)
+print("Intersection:", first_set & second_set)
+print("First set - second set:", first_set - second_set)
+print("Second set - first set:", second_set - first_set)
+print("Symmetric difference:", first_set ^ second_set)
+print("First set is a subset of second set:", first_set <= second_set)
+print("Second set is a subset of first set:", second_set <= first_set)
+print("Sets are disjoint:", first_set.isdisjoint(second_set))
